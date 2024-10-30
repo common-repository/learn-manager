@@ -1,0 +1,32 @@
+
+
+ul.jslmrating-stars-large{height:25px;width:127px;padding:0!important;margin:0!important;}
+ul.jslmrating-stars li, ul.jslmrating-stars-large li{background-position:0!important;padding:0!important;margin:0!important;}
+ul.jslmrating-stars-large, ul.jslmrating-stars-large li a:hover, ul.jslmrating-stars-large li.jslmrating-current-rating{background-image:url('../images/star_small.png')!important;background-color:transparent!important;background-repeat:no;background-position:left -1000px;background-size: 25px;}
+ul.jslmrating-stars,ul.jslmrating-stars-large{background-position:left top;list-style-image:none;list-style-position:outside;list-style-type:none;margin:0pt;overflow:hidden;padding:0pt;position:relative;background-size: 25px;}
+ul.jslmrating-stars li a, ul.jslmrating-stars li.jslmrating-current-rating,ul.jslmrating-stars-large li a, ul.jslmrating-stars-large li.jslmrating-current-rating{border:medium none;cursor:pointer;left:0pt;outline-color:-moz-use-text-color;outline-style:none;outline-width:medium;overflow:hidden;position:absolute;text-indent:-1000em;top:0pt;}
+ul.jslmrating-stars-large li a, ul.jslmrating-stars-large li.jslmrating-current-rating{height:25px;line-height:25px;}
+ul.jslmrating-stars-large li.jslmrating-current-rating{transition:width 0.5s;}
+ul.jslmrating-stars li a:hover,ul.jslmrating-stars-large li a:hover{background-position:left bottom!important;}
+
+ul.jslmrating-stars-small{height:19px;width:91px;padding:0!important;margin:0!important;}
+ul.jslmrating-stars li, ul.jslmrating-stars-small li{background-position:0!important;padding:0!important;margin:0!important;}
+ul.jslmrating-stars-small, ul.jslmrating-stars-small li a:hover, ul.jslmrating-stars-small li.jslmrating-current-rating{background-image:url('../images/star_small.png')!important;background-color:transparent!important;background-repeat:no;background-position:left -1000px;background-size: 18px;}
+ul.jslmrating-stars,ul.jslmrating-stars-small{background-position:left top;list-style-image:none;list-style-position:outside;list-style-type:none;margin:0pt;overflow:hidden;padding:0pt;position:relative;background-size: 18px;}
+ul.jslmrating-stars li a, ul.jslmrating-stars li.jslmrating-current-rating,ul.jslmrating-stars-small li a, ul.jslmrating-stars-small li.jslmrating-current-rating{border:medium none;cursor:pointer;left:0pt;outline-color:-moz-use-text-color;outline-style:none;outline-width:medium;overflow:hidden;position:absolute;text-indent:-1000em;top:0pt;}
+ul.jslmrating-stars-small li a, ul.jslmrating-stars-small li.jslmrating-current-rating{height:18px;line-height:18px;}
+ul.jslmrating-stars li a:hover,ul.jslmrating-stars-small li a:hover{background-position:left bottom!important;}
+
+ul.jslmrating-stars-x-small{height:12px;width:60px;padding:0!important;margin:0!important;}
+ul.jslmrating-stars li, ul.jslmrating-stars-x-small li{background-position:0!important;padding:0!important;margin:0!important;}
+ul.jslmrating-stars-x-small, ul.jslmrating-stars-x-small li a:hover, ul.jslmrating-stars-x-small li.jslmrating-current-rating{background-image:url('../images/star_small.png')!important;background-color:transparent!important;background-repeat:no;background-position:left -1000px;background-size: 12px;}
+ul.jslmrating-stars,ul.jslmrating-stars-x-small{background-position:left top;list-style-image:none;list-style-position:outside;list-style-type:none;margin:0pt;overflow:hidden;padding:0pt;position:relative;background-size: 12px;}
+ul.jslmrating-stars li a, ul.jslmrating-stars li.jslmrating-current-rating,ul.jslmrating-stars-x-small li a, ul.jslmrating-stars-x-small li.jslmrating-current-rating{border:medium none;cursor:pointer;left:0pt;outline-color:-moz-use-text-color;outline-style:none;outline-width:medium;overflow:hidden;position:absolute;text-indent:-1000em;top:0pt;}
+ul.jslmrating-stars-x-small li a, ul.jslmrating-stars-x-small li.jslmrating-current-rating{height:12px;line-height:12px;}
+ul.jslmrating-stars li a:hover,ul.jslmrating-stars-x-small li a:hover{background-position:left bottom!important;}
+
+li a.jslmrating-one-star{width:20%;padding:0;margin:0;z-index:6;}
+li a.jslmrating-two-stars{width:40%;padding:0;margin:0;z-index:5;}
+li a.jslmrating-three-stars{width:60%;padding:0;margin:0;z-index:4;}
+li a.jslmrating-four-stars{width:80%;padding:0;margin:0;z-index:3;}
+li a.jslmrating-five-stars{width:100%;padding:0;margin:0;z-index:1;}
